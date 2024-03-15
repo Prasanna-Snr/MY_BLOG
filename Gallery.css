@@ -191,3 +191,43 @@ nav ul li a:hover {
     background-color: #318a10;
     color: #fff;
 }
+
+/* css for video section */
+
+.heading-section{
+    display: flex;
+    justify-content: center;
+}
+
+#video-heading{
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.video-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+#video{
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 8px;
+}
+
+span{
+    color: #bc3c7e;
+}
+
+.heading-section h3{
+    color: #2a2cd5;
+}
+
+

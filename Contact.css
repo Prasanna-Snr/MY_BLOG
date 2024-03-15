@@ -229,3 +229,13 @@ button:hover{
     background-color: #318a10;
     color: #fff;
 }
+
+/* email */
+#email{
+    text-decoration: none;
+    color: #555;
+}
+
+#email:hover{
+text-decoration: underline;
+}
