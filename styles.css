@@ -348,3 +348,34 @@ video{
     max-width:600px;
     border-radius: 8px;
 }
+
+
+
+/* for responsive navbar */
+@media (max-width: 900px) {
+    header nav ul {
+        display: block;
+    }
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    header nav ul li a {
+        display: block;
+        padding: 10px;
+        color:darkblue;
+    }
+
+    header{
+        background-color: chartreuse;
+        display: flex;
+    }
+
+    nav ul li{
+        float: left;
+    }
+
+    nav ul li a:hover{
+    color: white;
+    }
+}
